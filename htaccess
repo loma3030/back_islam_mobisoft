@@ -1,0 +1,8 @@
+# السماح بالوصول من جميع المصادر
+Header set Access-Control-Allow-Origin "*"
+
+# السماح بطرق GET و POST و OPTIONS
+Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+
+# السماح بعناوين Content-Type
+Header set Access-Control-Allow-Headers "Content-Type"
